@@ -135,13 +135,12 @@ a {
 .roket {
     height: auto;
     position: relative;
-    top: 26rem;
+    top: 16rem;
     left: 74rem;
 }
 
 #home {
     width: 100%;
-    height: 100%;
     margin: auto;
     position: relative;
 }
@@ -256,28 +255,44 @@ span.basic-bg {
 }
 
 span.basic-bg:hover{
-    background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
-    -webkit-animation: basic-bg 2s ease;
-	        animation: basic-bg 2s ease;
+    background: linear-gradient(295deg, #bf264f, #1e0243);
+    background-size: 400% 400%;
+    -webkit-animation: basic-bg 3s ease infinite;
+    -moz-animation: basic-bg 3s ease infinite;
+    -o-animation: basic-bg 3s ease infinite;
+    animation: basic-bg 3s ease infinite;
 }
 
 @-webkit-keyframes basic-bg {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
-  }
+    0%{background-position:0% 18%}
+    50%{background-position:100% 83%}
+    100%{background-position:0% 18%}
+}
+@-moz-keyframes basic-bg {
+    0%{background-position:0% 18%}
+    50%{background-position:100% 83%}
+    100%{background-position:0% 18%}
+}
+@-o-keyframes basic-bg {
+    0%{background-position:0% 18%}
+    50%{background-position:100% 83%}
+    100%{background-position:0% 18%}
 }
 @keyframes basic-bg {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
-  }
+    0%{background-position:0% 18%}
+    50%{background-position:100% 83%}
+    100%{background-position:0% 18%}
+}
+
+#works-page {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.title-work h2{
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 30px;
+
 }
