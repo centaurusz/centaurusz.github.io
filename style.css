@@ -136,7 +136,7 @@ a {
     height: auto;
     position: relative;
     top: 16rem;
-    left: 74rem;
+    left: 75rem;
 }
 
 #home {
@@ -294,5 +294,83 @@ span.basic-bg:hover{
     letter-spacing: 2px;
     text-align: center;
     font-size: 30px;
+    text-transform: uppercase;
+    color: #ebd8cb;
+    stroke: 1px solid #fddd03;
+    text-shadow: 1px 1px 10px rgba(240,147,13,1);
+}
 
+.ornament-works .star-works {
+    background: url(/pict/star.png) no-repeat top center;
+    height: 63rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ornament-works .frame {
+    background: url(/pict/garis-works.png) no-repeat top left;
+    height: 560px;
+    z-index: 1;
+    position: relative;
+}
+
+.border-gallery{
+    background: url(/pict/frame-works.png) no-repeat top left;
+    height: 141px;
+    position: relative;
+    bottom: 28rem;
+    margin: 0 8rem;
+    z-index: 2;
+}
+
+.txt-gallery h3{
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    text-transform: uppercase;
+    top: 4rem;
+    left: 4rem;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.border-gallery .line {
+    background: #2900f8;
+    height: 5px;
+    width: 38px;
+    position: relative;
+    top: 4.5rem;
+    border-radius: 10px;
+}
+
+.line2 {
+    background: #2900f8;
+    height: 195px;
+    width: 5px;
+    position: relative;
+    border-radius: 10px;
+}
+.line3 {
+    background: #2900f8;
+    height: 5px;
+    width: 72rem;
+    top: -2px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.gallery-collase{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.grid img{
+    height: 260px;
+    position: relative;
+    border-radius: 28px;
+    margin: 8.5rem 33px 0;
+    box-shadow: 0 0 20px #2900f8;
 }
