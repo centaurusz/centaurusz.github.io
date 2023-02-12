@@ -239,22 +239,48 @@ span.basic-bg {
 }
 
 @-webkit-keyframes gradient-border {
-    0%{background-position:79% 0%}
-    50%{background-position:22% 100%}
-    100%{background-position:79% 0%}
-}
-@-moz-keyframes gradient-border {
-    0%{background-position:79% 0%}
-    50%{background-position:22% 100%}
-    100%{background-position:79% 0%}
-}
-@keyframes gradient-border {
-    0%{background-position:79% 0%}
-    50%{background-position:22% 100%}
-    100%{background-position:79% 0%}
+    0% {
+        background-position: 79% 0%
+    }
+
+    50% {
+        background-position: 22% 100%
+    }
+
+    100% {
+        background-position: 79% 0%
+    }
 }
 
-span.basic-bg:hover{
+@-moz-keyframes gradient-border {
+    0% {
+        background-position: 79% 0%
+    }
+
+    50% {
+        background-position: 22% 100%
+    }
+
+    100% {
+        background-position: 79% 0%
+    }
+}
+
+@keyframes gradient-border {
+    0% {
+        background-position: 79% 0%
+    }
+
+    50% {
+        background-position: 22% 100%
+    }
+
+    100% {
+        background-position: 79% 0%
+    }
+}
+
+span.basic-bg:hover {
     background: linear-gradient(295deg, #bf264f, #1e0243);
     background-size: 400% 400%;
     -webkit-animation: basic-bg 3s ease infinite;
@@ -264,24 +290,59 @@ span.basic-bg:hover{
 }
 
 @-webkit-keyframes basic-bg {
-    0%{background-position:0% 18%}
-    50%{background-position:100% 83%}
-    100%{background-position:0% 18%}
+    0% {
+        background-position: 0% 18%
+    }
+
+    50% {
+        background-position: 100% 83%
+    }
+
+    100% {
+        background-position: 0% 18%
+    }
 }
+
 @-moz-keyframes basic-bg {
-    0%{background-position:0% 18%}
-    50%{background-position:100% 83%}
-    100%{background-position:0% 18%}
+    0% {
+        background-position: 0% 18%
+    }
+
+    50% {
+        background-position: 100% 83%
+    }
+
+    100% {
+        background-position: 0% 18%
+    }
 }
+
 @-o-keyframes basic-bg {
-    0%{background-position:0% 18%}
-    50%{background-position:100% 83%}
-    100%{background-position:0% 18%}
+    0% {
+        background-position: 0% 18%
+    }
+
+    50% {
+        background-position: 100% 83%
+    }
+
+    100% {
+        background-position: 0% 18%
+    }
 }
+
 @keyframes basic-bg {
-    0%{background-position:0% 18%}
-    50%{background-position:100% 83%}
-    100%{background-position:0% 18%}
+    0% {
+        background-position: 0% 18%
+    }
+
+    50% {
+        background-position: 100% 83%
+    }
+
+    100% {
+        background-position: 0% 18%
+    }
 }
 
 #works-page {
@@ -290,14 +351,14 @@ span.basic-bg:hover{
     position: relative;
 }
 
-.title-work h2{
+.title-work h2 {
     letter-spacing: 2px;
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
     color: #ebd8cb;
     stroke: 1px solid #fddd03;
-    text-shadow: 1px 1px 10px rgba(240,147,13,1);
+    text-shadow: 1px 1px 10px rgba(240, 147, 13, 1);
 }
 
 .ornament-works .star-works {
@@ -316,7 +377,7 @@ span.basic-bg:hover{
     position: relative;
 }
 
-.border-gallery{
+.border-gallery {
     background: url(/pict/frame-works.png) no-repeat top left;
     height: 141px;
     position: relative;
@@ -325,7 +386,7 @@ span.basic-bg:hover{
     z-index: 2;
 }
 
-.txt-gallery h3{
+.txt-gallery h3 {
     font-family: 'Josefin Sans', sans-serif;
     position: absolute;
     text-transform: uppercase;
@@ -352,6 +413,7 @@ span.basic-bg:hover{
     position: relative;
     border-radius: 10px;
 }
+
 .line3 {
     background: #2900f8;
     height: 5px;
@@ -361,16 +423,89 @@ span.basic-bg:hover{
     border-radius: 10px;
 }
 
-.gallery-collase{
+.gallery-collase {
     display: flex;
     justify-content: center;
     position: relative;
 }
 
-.grid img{
+.grid img {
     height: 260px;
     position: relative;
     border-radius: 28px;
     margin: 8.5rem 33px 0;
     box-shadow: 0 0 20px #2900f8;
+}
+
+.more-button {
+    background: none;
+    margin: 2rem 67rem 0;
+    border: 2px solid #bf264f;
+    height: 2rem;
+    width: 6.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #bf264f;
+}
+
+.more-button span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    position: relative;
+    top: 4px;
+    left: 13px;
+}
+
+.more-button:hover{
+    background: none;
+    border: 2px solid #00f0fc;
+    box-shadow: 0 0 20px #00f0fc;
+}
+
+.comet{
+    background: url(/pict/planet-orange.png) no-repeat bottom left;
+    position: relative;
+    right: 11rem;
+    height: 192px;
+ }
+
+.border-content img{
+    height: 141px;
+    position: relative;
+    bottom: 6rem;
+    left: 8rem;
+}
+
+.txt-content h3{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 23em;
+    left: 12rem;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.frame-content  {
+    background: url(/pict/content-frame.png) no-repeat top left;
+    height: 401px;
+    position: relative;
+    margin-left: 10rem;
+    bottom: 98px;
+}
+
+.frame-content img {
+    height: 165px;
+    margin-left: 3.3rem;
+    margin-top: 12.5rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #21fef5;
+}
+
+.frame-design {
+    background: url(/pict/content-frame.png) no-repeat top left;
+    height: 401px;
+    position: relative;
+    margin-left: 36rem;
+    bottom: 369px;
 }
