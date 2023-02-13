@@ -728,12 +728,49 @@ span.basic-bg:hover {
 }
 .organization {
     position: relative;
+    width: 100%;
+    height: 0;
+}
+
+.dots5 {
+    background: #f27289;
+    width: 9px;
+    height: 9px;
+    position: relative;
+    top: 68px;
+    left: 25px;
+    box-shadow: 0 0 20px 0 #f27289;
+}
+
+.dots6 {
+    background: #f27289;
+    width: 9px;
+    height: 9px;
+    position: relative;
+    top: 91px;
+    left: 25px;
+    box-shadow: 0 0 20px 0 #f27289;
+}
+
+.dots7 {
+    background: #f27289;
+    width: 9px;
+    height: 9px;
+    position: relative;
+    top: 111px;
+    left: 25px;
+    box-shadow: 0 0 20px 0 #f27289;
 }
 
 .organization img{
     position: relative;
     margin-left: 8rem;
     bottom: 5rem;
+}
+
+.comet-green{
+    position: absolute;
+    right: 0;
 }
 .txt-organization {
     position: relative;
@@ -759,13 +796,14 @@ span.basic-bg:hover {
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: 0 5px 20px 0 rgb(0 0 0 / 37%);
+    backdrop-filter: blur(1.5px);
 }
 
 .glass-desc h3 {
     font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
-    margin: 23px 0 14px 25px;
+    margin: -7px 0 14px 25px;
     color: #fff;
 }
 
@@ -784,4 +822,121 @@ span.basic-bg:hover {
     font-size: 25px;
     margin: 14px 0 14px 25px;
     color: #fff;
+}
+
+.glass-shodou {
+    width: 57rem;
+    height: 19rem;
+    position: relative;
+    bottom: 20rem;
+    margin-left: 24rem;
+    border-radius: 24px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 37%);
+    backdrop-filter: blur(1.5px);
+}
+
+.dots8 {
+    background: #f27289;
+    width: 9px;
+    height: 9px;
+    position: relative;
+    top: 87px;
+    left: 25px;
+    box-shadow: 0 0 20px 0 #f27289;
+}
+
+.dots9 {
+    background: #f27289;
+    width: 9px;
+    height: 9px;
+    position: relative;
+    top: 109px;
+    left: 25px;
+    box-shadow: 0 0 20px 0 #f27289;
+}
+
+.dots10 {
+    background: #f27289;
+    width: 9px;
+    height: 9px;
+    position: relative;
+    top: 130px;
+    left: 25px;
+    box-shadow: 0 0 20px 0 #f27289;
+}
+
+.dots11 {
+    background: #f27289;
+    width: 9px;
+    height: 9px;
+    position: relative;
+    top: 150px;
+    left: 25px;
+    box-shadow: 0 0 20px 0 #f27289;
+}
+
+.dots12 {
+    background: #f27289;
+    width: 9px;
+    height: 9px;
+    position: relative;
+    top: 171px;
+    left: 25px;
+    box-shadow: 0 0 20px 0 #f27289;
+}
+
+.glass-shodou h3{
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin: -7px 0 14px 25px;
+    color: #fff;
+    
+}
+
+.glass-shodou p{
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin: 0 0 11px 45px;
+    line-height: 1.5;
+    color: #f2e963;
+}
+
+.glass-shodou span{
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: 18px;
+    color: #fff;
+}
+
+#skill-page{
+    width: 100%;
+    margin: 43rem 0 0;
+    position: relative;
+}
+
+.text-skill h2{
+    position: relative;
+    
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    stroke: 1px solid #d90b42;
+    text-shadow: 1px 1px 10px #d90b42;
+}
+
+.starry{
+    background: url(/pict/star.png) no-repeat center top;
+    height: 63rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
