@@ -136,7 +136,7 @@ a {
     height: auto;
     position: relative;
     top: 16rem;
-    left: 75rem;
+    left: 69rem;
 }
 
 #home {
@@ -439,7 +439,7 @@ span.basic-bg:hover {
 
 .more-button {
     background: none;
-    margin: 2rem 67rem 0;
+    margin: 2rem 58rem 0;
     border: 2px solid #bf264f;
     height: 2rem;
     width: 6.5rem;
@@ -468,6 +468,11 @@ span.basic-bg:hover {
     height: 192px;
  }
 
+.border-content{
+    width: 100%;
+    height: 0;
+ }
+
 .border-content img{
     height: 141px;
     position: relative;
@@ -475,12 +480,14 @@ span.basic-bg:hover {
     left: 8rem;
 }
 
+.txt-content{
+    position: relative;
+    margin-left: 12rem;
+    bottom: 11rem;
+}
 .txt-content h3{
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    position: absolute;
-    bottom: 23em;
-    left: 12rem;
     letter-spacing: 3px;
     font-weight: 300;
     font-size: 1.5em;
@@ -492,6 +499,7 @@ span.basic-bg:hover {
     position: relative;
     margin-left: 10rem;
     bottom: 98px;
+    z-index: 1;
 }
 
 .frame-content img {
@@ -506,6 +514,274 @@ span.basic-bg:hover {
     background: url(/pict/content-frame.png) no-repeat top left;
     height: 401px;
     position: relative;
-    margin-left: 36rem;
-    bottom: 369px;
+    margin-left: 35rem;
+    bottom: 38rem;
+    display: flex;
+}
+
+.content img{
+    margin-left: 3.2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #21fef5;
+}
+
+.content .glass-blur{
+    width: 21rem;
+    height: 15rem;
+    border-radius: 14px;
+    position: relative;
+    bottom: 17rem;
+    left: 10rem;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 37%);
+}
+
+.glass-blur p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 12rem;
+    text-align: center;
+}
+
+.glass{
+    width: 21rem;
+    height: 15rem;
+    border-radius: 10px;
+    position: relative;
+    bottom: 17rem;
+    left: 10rem;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 37%);
+}
+
+.glass p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 12rem;
+    text-align: center;
+}
+
+.frame-works-bottom{
+    background: url(/pict/garis-works-2.png) no-repeat bottom right;
+    position: relative;
+    height: 594px;
+    width: 100%;
+    bottom: 30rem;
+}
+/* .frame-works-bottom img{
+    height: 26rem;
+} */
+
+#experience-page {
+    width: 100%;
+    margin: 43rem 0 0;
+    position: relative;
+}
+
+.text-exp h2{
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #f8f8ec;
+    stroke: 1px solid #f9f5c4;
+    text-shadow: 1px 1px 10px #fdf763;
+}
+
+.exp-intern{
+    width: 100%;
+    position: relative;
+}
+
+.tegarnews {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.tegarnews img{
+    height: auto;
+    margin: 6rem 2rem 0 8rem;
+}
+
+.txt-section {
+    position: relative;
+    bottom: 5.5rem;
+    margin-left: 11rem;
+}
+
+.txt-section h2{
+    font-size: 1.5rem;
+    color: #f2e963;
+}
+
+.desc-tegarnews {
+    position: relative;
+    margin-left: 18rem;
+    bottom: 3rem;
+}
+
+.desc-tegarnews h3 {
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: #f2e963;
+}
+
+.desc-tegarnews p {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 1px 0 0 0;
+    word-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+
+.dots {
+    background: #f27289;
+    position: relative;
+    top: 1.6rem;
+    width: 9px;
+    height: 9px;
+    box-shadow: 0 0 20px 0 #f27289;
+}
+
+.list-job p{
+    margin-left: 2rem;
+}
+.dots2 {
+    background: #f27289;
+    width: 9px;
+    height: 9px;
+    position: relative;
+    top: 2.5rem;
+    box-shadow: 0 0 20px 0 #f27289;
+}
+
+.ozora {
+    position: relative;
+    bottom: 5rem;
+    left: 0;
+}
+
+.ozora img {
+    height: auto;
+    margin: 6rem 2rem 0 8rem;
+}
+
+.txt-year {
+    position: relative;
+    bottom: 5.5rem;
+    margin-left: 9rem;
+}
+
+.txt-year h2{
+    font-size: 1.5rem;
+    color: #f2e963;
+}
+
+.desc-ozora {
+    position: relative;
+    margin-left: 18rem;
+    bottom: 3rem;
+}
+
+.desc-ozora h3 {
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: #f2e963;
+}
+
+.desc-ozora p {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 1px 0 0 0;
+    word-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+
+.dots3 {
+    background: #f27289;
+    position: relative;
+    top: 1.6rem;
+    width: 9px;
+    height: 9px;
+    box-shadow: 0 0 20px 0 #f27289;
+}
+
+.list-ozora p{
+    margin-left: 2rem;
+}
+.dots4 {
+    background: #f27289;
+    width: 9px;
+    height: 9px;
+    position: relative;
+    top: 2.5rem;
+    box-shadow: 0 0 20px 0 #f27289;
+}
+.organization {
+    position: relative;
+}
+
+.organization img{
+    position: relative;
+    margin-left: 8rem;
+    bottom: 5rem;
+}
+.txt-organization {
+    position: relative;
+    bottom: 5.3rem;
+    margin-left: 11rem;
+}
+
+.txt-organization h2{
+    font-size: 1.5rem;
+    color: #f2e963;
+    position: relative;
+    bottom: 22rem;
+    letter-spacing: 2px;
+}
+
+.glass-desc {
+    width: 57rem;
+    height: 13rem;
+    position: relative;
+    bottom: 25rem;
+    margin-left: 24rem;
+    border-radius: 24px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 37%);
+}
+
+.glass-desc h3 {
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin: 23px 0 14px 25px;
+    color: #fff;
+}
+
+.glass-desc p{
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin: 0 0 11px 45px;
+    line-height: 1.5;
+    color: #f2e963;
+}
+
+.glass-desc span{
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin: 14px 0 14px 25px;
+    color: #fff;
 }
