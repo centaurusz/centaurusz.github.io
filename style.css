@@ -893,7 +893,7 @@ span.basic-bg:hover {
     font-size: 25px;
     margin: -7px 0 14px 25px;
     color: #fff;
-    
+    z-index: 12;
 }
 
 .glass-shodou p{
@@ -916,13 +916,13 @@ span.basic-bg:hover {
 
 #skill-page{
     width: 100%;
-    margin: 43rem 0 0;
+    max-width: 1000px;
+    margin: 43rem auto 0;
     position: relative;
 }
 
 .text-skill h2{
     position: relative;
-    
     letter-spacing: 2px;
     text-align: center;
     font-size: 30px;
@@ -939,4 +939,12 @@ span.basic-bg:hover {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.list-skill{
+    display: flex;
+}
+
+.list-skill h3{
+    line-height: 5;
 }
