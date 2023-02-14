@@ -134,9 +134,9 @@ a {
 
 .roket {
     height: auto;
-    position: relative;
-    top: 16rem;
-    left: 69rem;
+    position: absolute;
+    top: 30rem;
+    left: 71rem;
 }
 
 #home {
@@ -540,6 +540,7 @@ span.basic-bg:hover {
     height: 10rem;
     border-radius: 20px;
     box-shadow: 0 0 20px #21fef5;
+    z-index: 1;
 }
 
 .content1 .glass-blur{
@@ -552,6 +553,7 @@ span.basic-bg:hover {
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: 0 5px 20px 0 rgb(0 0 0 / 37%);
+    backdrop-filter: blur(8.5px);
 }
 
 .glass-blur p{
@@ -586,7 +588,8 @@ span.basic-bg:hover {
     left: 9.5rem;
     height: 10rem;
     border-radius: 20px;
-    box-shadow: 0 0 20px #21fef5
+    box-shadow: 0 0 20px #21fef5;
+    z-index: 1;
 }
 
 .content2 .glass-blur{
@@ -599,6 +602,7 @@ span.basic-bg:hover {
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: 0 5px 20px 0 rgb(0 0 0 / 37%);
+    backdrop-filter: blur(8.5px);
 }
 
 .frame-works-bottom{
@@ -832,7 +836,7 @@ span.basic-bg:hover {
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: 0 5px 20px 0 rgb(0 0 0 / 37%);
-    backdrop-filter: blur(1.5px);
+    backdrop-filter: blur(8.5px);
 }
 
 .glass-desc h3 {
@@ -870,7 +874,7 @@ span.basic-bg:hover {
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: 0 5px 20px 0 rgb(0 0 0 / 37%);
-    backdrop-filter: blur(1.5px);
+    backdrop-filter: blur(8.5px);
 }
 
 .dots8 {
@@ -1016,15 +1020,35 @@ span.basic-bg:hover {
     padding-top: 12rem;
 }
 
-.twink{
-    background: url(/pict/star.png) no-repeat center top;
-    height: 63rem;
-    width: 100%;
+.box-abt::before{
+    content: "";
+    z-index: -1;
     position: absolute;
+    top: 55px;
+    right: 24px;
+    bottom: 105px;
+    left: -66px;
+    background: linear-gradient(-72deg, #8b003f 0%, #00ffd7 99% );
+    transform: translate3d(56px, 129px, 0) scale(0.99);
+    filter: blur(28px);
+    opacity: var(0.74);
+    transition: opacity 0.3s;
+    border-radius: inherit;
+}
+
+.box::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    border-radius: inherit;
 }
   
 .border-abt {
-    background: rgb(0,255,215);
     background: linear-gradient(136deg, rgba(0,255,215,1) 0%, rgba(139,0,63,1) 100%);
     max-width: 1000px;
     position: relative;
@@ -1039,8 +1063,27 @@ span.basic-bg:hover {
     margin-left: 10px;
     top: 10px;
 }
-.title-about h2{
-    text-align: center;
+
+.glass-box{
+    max-width: 54rem;
+    height: 29rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 40px;
+    margin-left: 3.5rem;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 37%);
+    backdrop-filter: blur(1.5px);
+}
+
+.desc-abt{
+    position: relative;
+    right: 50px;
+    top: 65px;
+}
+.desc-abt h2{
     text-transform: uppercase;
     font-size: 2rem;
     letter-spacing: 2px;
@@ -1052,4 +1095,29 @@ span.basic-bg:hover {
 .borderabt img {
     margin: 0 auto;
     position: absolute;
+    bottom: 420px;
+    left: -55px;
+}
+
+.borderabt2 img {
+    margin: 0 auto;
+    position: relative;
+    bottom: 135px;
+    padding-left: 52.5rem;
+}
+
+.desc-abt p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 5rem;
+    line-height: 1.5;
+}
+
+.image-me img {
+    height: 212px;
+    position: absolute;
+    top: 8rem;
+    left: 6rem;
+    border-radius: 28px;
 }

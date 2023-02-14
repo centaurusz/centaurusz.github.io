@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Portofolio</title>
 </head>
@@ -48,13 +50,14 @@
         <div class="planet">
             <img src="/pict/planet-ijo.png">
         </div>
-        <div class="roket">
+        <div class="roket" >
             <img src="/pict/roket.png">
         </div>
     </div>
     <div id="home">
         <div class="container">
-            <h2 class="txt-home">
+            <h2 class="txt-home" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-easing="ease-in-out" data-aos-duration="1000">
                 Hi! I'm Salma
                 <br>
                 <p>have interest in writing, design,<br>
@@ -65,21 +68,26 @@
                     </span></a>
             </h2>
 
-            <div class="astronot">
+            <div class="astronot" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-easing="ease-in-out" data-aos-duration="1000">
                 <img src="pict/astronot.png">
             </div>
         </div>
     </div>
 
     <div id="works-page">
-        <div class="title-work">
+        <div class="title-work" data-aos="fade-up" data-aos-easing="ease-in-out"
+        data-aos-duration="2000">
             <h2>Works</h2>
         </div>
         <div class="ornament-works">
             <div class="star-works"></div>
-            <div class="frame"></div>
+            <div class="frame" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"></div>
         </div>
-        <div class="border-gallery">
+        <div class="border-gallery" data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500">
             <div class="txt-gallery">
                 <h3>Gallery</h3>
             </div>
@@ -106,27 +114,12 @@
             <div class="comet"></div>
         </div>
         
-        <div class="border-content">
+        <div class="border-content" data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500">
             <img src="/pict/frame-works.png">
                 <div class="txt-content">
                     <h3>content</h3>
                 </div>
-            <!-- <div class="frame-content">
-                <div class="content">
-                    <a href="."><img src="/pict/content1.jpg">
-                        <div class="glass-blur">
-                            <p>Writing</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="frame-design">
-                    <a href="."><img src="/pict/content2.png">
-                    <div class="glass">
-                        <p>Design</p>
-                    </div>
-                    </a>
-                </div>
-            </div> -->
             <div class="content-wrap">
                 <div class="content1">
                     <a href="."><img src="/pict/content1.jpg">
@@ -150,11 +143,15 @@
     </div>
     
     <div id="experience-page">
-        <div class="text-exp">
+        <div class="text-exp" data-aos="fade-right"
+        data-aos-duration="1200"
+        data-aos-easing="ease-in-sine">
             <h2>Experience</h2>
         </div>
         <div class="exp-intern">
-            <div class="tegarnews">
+            <div class="tegarnews" data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-sine">
                 <img src="/pict/exp-ornament.png">
                 <div class="txt-section">
                     <h2>2017</h2>
@@ -171,7 +168,9 @@
                     </div>
                 </div>
             </div>
-            <div class="ozora">
+            <div class="ozora" data-aos="fade-right"
+            data-aos-duration="1700"
+            data-aos-easing="ease-in-sine">
                 <img src="/pict/exp-ornament.png">
                 <div class="txt-year">
                     <h2>2022-2023</h2>
@@ -190,7 +189,9 @@
             <div class="comet-green">
                 <img src="/pict/green-comet.png">
             </div>
-            <div class="organization">
+            <div class="organization" data-aos="fade-right"
+            data-aos-duration="2100"
+            data-aos-easing="ease-in-sine">
                 <img src="/pict/organize-ornament.png">
                 <div class="txt-organization">
                     <h2>organization...</h2>
@@ -225,42 +226,56 @@
     </div>
 
     <div id="skill-page">
-        <div class="text-skill">
+        <div class="text-skill" data-aos="fade-left"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out">
             <h2>Skill</h2>
         </div>
         <div class="starry"></div>
         <div class="list">
-            <div class="list-skill">
+            <div class="list-skill" data-aos="fade-right"
+            data-aos-duration="1700"
+            data-aos-easing="ease-in-out">
                 <h3>Adobe Premiere</h3>
                 <div class="bar-chart color" data-total="80" animated>
                     <span class="bar-chart--inner" style="width:80%;"></span>
                 </div>
             </div>
-            <div class="list-skill">
+            <div class="list-skill" data-aos="fade-right"
+            data-aos-duration="1900"
+            data-aos-easing="ease-in-out">
                 <h3>Photoshop</h3>
                 <div class="bar-chart color" data-total="87" animated>
                     <span class="bar-chart--inner" style="width:87%;"></span>
                 </div>
             </div>
-            <div class="list-skill">
+            <div class="list-skill" data-aos="fade-right"
+            data-aos-duration="2100"
+            data-aos-easing="ease-in-out">
                 <h3>After Effect</h3>
                 <div class="bar-chart color" data-total="67" animated>
                     <span class="bar-chart--inner" style="width:67%;"></span>
                 </div>
             </div>
-            <div class="list-skill">
+            <div class="list-skill" data-aos="fade-right"
+            data-aos-duration="2300"
+            data-aos-easing="ease-in-out">
                 <h3>Microsoft</h3>
                 <div class="bar-chart color" data-total="95" animated>
                     <span class="bar-chart--inner" style="width:95%;"></span>
                 </div>
             </div>
-            <div class="list-skill">
+            <div class="list-skill" data-aos="fade-right"
+            data-aos-duration="2500"
+            data-aos-easing="ease-in-out">
                 <h3>Corel Draw</h3>
                 <div class="bar-chart color" data-total="100" animated>
                     <span class="bar-chart--inner" style="width:100%;"></span>
                 </div>
             </div>
-            <div class="list-skill">
+            <div class="list-skill" data-aos="fade-right"
+            data-aos-duration="2700"
+            data-aos-easing="ease-in-out">
                 <h3>Visual Code Studio
                 (HTML & CSS)</h3>
                 <div class="bar-chart color" data-total="65" animated>
@@ -271,19 +286,38 @@
     </div>
 
     <div id="about-page">
-        <div class="twink"></div>
-        <div class="border-abt">
-            <div class="border-inner">
-                <div class="title-about">
-                    <h2>About</h2>
+            <div class="box-abt">
+                <div class="border-abt">
+                    <div class="border-inner">
+                        <div class="glass-box">
+                            <div class="image-me">
+                                <img src="/pict/example-me.png">
+                            </div>
+                            <div class="desc-abt">
+                                <h2>About</h2>
+                                <p>Hillow!<br>
+                                    Moon and Saturn addict. Loves writing and<br>
+                                    anlyzing poetry or short stories.<br>
+                                    Has the principle,<br>
+                                    'just a bad day is not a bad life'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ornament-about">
+                        <div class="borderabt">
+                            <img src="/pict/sudut1.png">
+                        </div>
+                        <div class="borderabt2">
+                            <img src="/pict/sudut2.png">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="ornament-about">
-                <div class="borderabt"></div>
-                <img src="/pict/sudut1.png">
-            </div>
-        </div>
     </div>
 </body>
+
+<script>
+    AOS.init();
+</script>
 
 </html>
