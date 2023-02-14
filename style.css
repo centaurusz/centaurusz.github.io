@@ -1024,15 +1024,13 @@ span.basic-bg:hover {
     content: "";
     z-index: -1;
     position: absolute;
-    top: 55px;
+    top: -10rem;
     right: 24px;
     bottom: 105px;
     left: -66px;
     background: linear-gradient(-72deg, #8b003f 0%, #00ffd7 99% );
     transform: translate3d(56px, 129px, 0) scale(0.99);
     filter: blur(28px);
-    opacity: var(0.74);
-    transition: opacity 0.3s;
     border-radius: inherit;
 }
 
