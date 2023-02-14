@@ -472,8 +472,7 @@ span.basic-bg:hover {
 
 .border-content{
     width: 100%;
-    height: 0;
-    margin: auto;
+    margin: 0 auto;
  }
 
 .border-content img{
@@ -519,20 +518,37 @@ span.basic-bg:hover {
     margin-left: 34rem;
     bottom: 38rem;
 }
+.content-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
 
-.content img{
-    margin-left: 11.2rem;
+.content1{
+    width: 100%;
+    max-width: 500px;
+    background: url(/pict/content-frame.png) no-repeat;
+    background-size: 497px;
+    position: relative;
+    right: 60px;
+    bottom: 9rem;
+}
+.content1 img{
+    position: absolute;
+    top: 92px;
+    left: 9.5rem;
+    height: 10rem;
     border-radius: 20px;
     box-shadow: 0 0 20px #21fef5;
 }
 
-.content .glass-blur{
-    width: 21rem;
-    height: 15rem;
+.content1 .glass-blur{
+    width: 312px;
+    height: 239px;
     border-radius: 14px;
-    position: relative;
-    bottom: 17rem;
-    left: 10rem;
+    position: absolute;
+    top: 5rem;
+    left: 140px;
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: 0 5px 20px 0 rgb(0 0 0 / 37%);
@@ -546,18 +562,6 @@ span.basic-bg:hover {
     text-align: center;
 }
 
-.glass{
-    width: 21rem;
-    height: 15rem;
-    border-radius: 10px;
-    position: relative;
-    bottom: 17rem;
-    left: 10rem;
-    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
-    border: 1px solid rgba(255,255,255,0.18);
-    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 37%);
-}
-
 .glass p{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2rem;
@@ -566,20 +570,49 @@ span.basic-bg:hover {
     text-align: center;
 }
 
+.content2 {
+    width: 100%;
+    max-width: 500px;
+    background: url(/pict/content-frame.png) no-repeat;
+    background-size: 497px;
+    position: relative;
+    
+    bottom: 9rem;
+}
+
+.content2 img{
+    position: relative;
+    top: 92px;
+    left: 9.5rem;
+    height: 10rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #21fef5
+}
+
+.content2 .glass-blur{
+    width: 312px;
+    height: 239px;
+    border-radius: 14px;
+    position: relative;
+    bottom: 5rem;
+    left: 140px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 37%);
+}
+
 .frame-works-bottom{
     background: url(/pict/garis-works-2.png) no-repeat bottom right;
-    position: relative;
+    position: absolute;
     height: 599px;
     width: 100%;
-    bottom: 30rem;
+    bottom: -2rem;
+    left: 207px;
 }
-/* .frame-works-bottom img{
-    height: 26rem;
-} */
 
 #experience-page {
     width: 100%;
-    margin: 43rem 0 0;
+    margin: 0 auto;
     position: relative;
     max-width: 1000px;
 }
@@ -772,7 +805,8 @@ span.basic-bg:hover {
 
 .comet-green{
     position: absolute;
-    right: -12rem;
+    right: -5rem;
+    bottom: -28rem;
 }
 .txt-organization {
     position: relative;
@@ -789,7 +823,7 @@ span.basic-bg:hover {
 }
 
 .glass-desc {
-    width: 57rem;
+    max-width: 57rem;
     height: 13rem;
     position: relative;
     bottom: 25rem;
@@ -827,11 +861,11 @@ span.basic-bg:hover {
 }
 
 .glass-shodou {
-    width: 57rem;
+    max-width: 57rem;
     height: 19rem;
     position: relative;
     bottom: 20rem;
-    margin-left: 24rem;
+    margin-left: 14rem;
     border-radius: 24px;
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255, 255, 255, 0));
     border: 1px solid rgba(255,255,255,0.18);
@@ -943,10 +977,79 @@ span.basic-bg:hover {
     left: 0;
 }
 
-.list-skill{
-    display: flex;
-}
-
 .list-skill h3{
     line-height: 5;
+}
+
+.bar-chart {
+    background: #fff;
+    height: 1rem;
+    border-radius: 10px;
+}
+  .bar-chart .bar-chart--inner {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(86deg, rgba(0,87,91,1) 0%, rgba(0,255,235,1) 100%);
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 0.3rem;
+    position: relative;
+    will-change: width;
+    overflow: hidden;
+  }
+  .bar-chart .bar-chart--inner:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: " ";
+    width: 1rem;
+    height: 100%;
+    background: rgb(0, 255, 234);
+    border-radius: 10px;
+  }
+
+  #about-page{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 12rem;
+}
+
+.twink{
+    background: url(/pict/star.png) no-repeat center top;
+    height: 63rem;
+    width: 100%;
+    position: absolute;
+}
+  
+.border-abt {
+    background: rgb(0,255,215);
+    background: linear-gradient(136deg, rgba(0,255,215,1) 0%, rgba(139,0,63,1) 100%);
+    max-width: 1000px;
+    position: relative;
+    height: 36rem;
+}
+
+.border-inner {
+    background: linear-gradient(90deg, rgba(30, 2, 67, 1) 24%, rgba(13, 3, 31, 1) 60%, rgba(78, 0, 50, 1) 100%);
+    max-width: 979px;
+    position: relative;
+    height: 556px;
+    margin-left: 10px;
+    top: 10px;
+}
+.title-about h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #fff;
+    stroke: 1px solid #5700f6;
+    text-shadow: 1px 1px 10px #5700f6;
+}
+
+.borderabt img {
+    margin: 0 auto;
+    position: absolute;
 }
