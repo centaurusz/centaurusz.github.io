@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <title>Works</title>
@@ -38,7 +40,9 @@
             </li>
         </ul>
     </div>
-    <div id="gallery-page">
+    <div id="gallery-page" data-aos="fade-right"
+    data-aos-duration="1500"
+    data-aos-easing="ease-in-out">
         <div class="box-gallery">
             <div class="title-gallery">
                 <h2>Gallery</h2>
@@ -60,6 +64,10 @@
         </div>
     </div>
 </body>
+
+<script>
+    AOS.init();
+</script>
 
  <!-- Swiper JS -->
  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
