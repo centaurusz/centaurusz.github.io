@@ -1354,10 +1354,11 @@ a {
 
 .glass-writing {
     display: grid;
-    grid-template-columns: 1fr 472px;
-    grid-template-rows: repeat(2, 313px);
+    grid-template-columns: 1fr 442px;
+    grid-template-rows: repeat(1, 422px);
     position: relative;
     top: 15rem;
+    gap: 30px;
 }
 
 .itemblog{
@@ -1400,6 +1401,10 @@ a {
     background: linear-gradient(to right, #00bf8f, #061c17);
 }
 
+.img-wr2 img {
+    height: 214px;
+    border-radius: 23px;
+}
 .label {
     height: 24px;
     display: inline-flex;
@@ -1411,7 +1416,7 @@ a {
     font-size: 1.2rem;
     line-height: 2rem;
     position: relative;
-    bottom: 8rem;
+    bottom: 7rem;
 }
 .heading-title h3{
     font-size: 3.2rem;
@@ -1425,9 +1430,49 @@ a {
     line-height: 46px;
     text-align: left;
     position: relative;
-    bottom: 7rem;
+    bottom: 6rem;
 }
 
 .heading-title a:hover{
+    color: #00bf8f;
+}
+
+.content-wr2 {
+    text-align: left;
+}
+
+.--orange {
+    background-image: linear-gradient( 135deg, #FD6E6A 10%, #FFC600 100%);
+}
+
+.label2 {
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 2px 21px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    position: relative;
+    top: 1rem;
+}
+
+.heading-title2 h3{
+    font-size: 3.2rem;
+    line-height: 4,2rem;
+    text-align: left;
+}
+.heading-title2 a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+    position: relative;
+    top: 27px;
+}
+
+.heading-title2 a:hover{
     color: #00bf8f;
 }
