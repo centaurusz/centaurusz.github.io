@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Works</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li class="active">
+                <a href="/index.html" class="link">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#gallery-page" class="link">
+                    <span>Gallery</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="#writing-page" class="link">
+                    <span>Writing</span>
+                </a>
+            </li>
+            <li>
+                <a href="#design" class="link">
+                    <span>Design</span>
+                </a>
+            </li>
+            <li>
+                <a href="#video-page" class="link">
+                    <span>Video</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="gallery-page">
+        <div class="box-gallery">
+            <div class="title-gallery">
+                <h2>Gallery</h2>
+            </div>
+            <div class="swiper boxSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="/pict/gallery1.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/pict/gallery2.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/pict/gallery3.jpg">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper(".boxSwiper", {
+     spaceBetween: 30,
+     loop: true,
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,
+     },
+   });
+ </script>
+
+</html>

@@ -524,13 +524,6 @@ span.basic-bg:hover {
     margin: 0 auto;
 }
 
-.btn-writer a::before{
-    opacity: 100%;
-}
-
-.btn-writer a:after{
-    opacity: 80%;
-}
 .content1{
     width: 100%;
     max-width: 500px;
@@ -1129,6 +1122,10 @@ span.basic-bg:hover {
 
 /* works page writing section-start*/
 
+html,
+body {
+    height: 830px;
+}
 .navbar {
     width: 100%;
     height: 80px;
@@ -1202,3 +1199,75 @@ a {
     cursor: pointer;
     display: inline-block;
 }
+
+.gallery-page{
+    margin: 0 auto;
+    max-width: 1255px;
+    position: relative;
+}
+.star-gallery{
+    margin: 0 auto;
+    background: url(/pict/star.png) no-repeat;
+    position: relative;
+    height: 100%;
+    max-width: 1255px;
+}
+
+.box-gallery{
+    margin: 140px auto 0;
+    max-width: 1255px;
+    background: url(/pict/box.png) no-repeat;
+    height: 792px;
+    position: relative;
+}
+
+.box-gallery img{
+    height: 12px;
+}
+
+.title-gallery h2 {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    top: 9px;
+    right: 37px;
+    position: relative;
+    font-style: italic;
+    color: cyan;
+}
+
+.swiper {
+    width: 90%;
+    height: 90%;
+  }
+
+  .swiper, swiper-container {
+    margin-left: 24px;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+}
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 50%;
+    height: 80%;
+    object-fit: cover;
+    box-shadow: 0 0 20px #21fef5;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #d90b42;
+  }
