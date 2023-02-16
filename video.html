@@ -40,13 +40,26 @@
             </li>
         </ul>
     </div>
-    <div id="video-page" class="video-page">
+    <div class="video-page" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1700">
         <div class="frame-video">
-            <div class="title-video">
+            <div class="title-video" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2000">
                 <h2>Video</h2>
             </div>
         </div>
-        
+        <div id="video" class="video-yt" style="opacity: 1;"></div>
+                <iframe width="979px" height="524px" src="https://www.youtube.com/embed/MsGb6ztBkjs" data-src allowfullscreen="1">
+                </iframe>
+            </div>
+        </div>
     </div>
 </body>
+
+<script>
+    AOS.init();
+</script>
+
 </html>
