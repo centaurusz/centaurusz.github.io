@@ -1120,6 +1120,18 @@ span.basic-bg:hover {
     border-radius: 28px;
 }
 
+.contact {
+    width: 100%;
+    position: relative;
+    
+}
+.ig img {
+    position: absolute;
+    height: 55px;
+    right: 0;
+    left: 50%;
+    top: 4rem;
+}
 /* works page gallery section-start*/
 
 html,
