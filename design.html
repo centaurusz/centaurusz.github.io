@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="design.css">
     <title>Design</title>
 </head>
 <body>
@@ -44,7 +46,44 @@
             <div class="title-design">
                 <h2>Design</h2>
             </div>
+            <div class="banner">
+                <div class="swiper designSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="/pict/baner-1.jpg" class="dgimg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/pict/banner-2.jpg" class="dgimg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/pict/banner-3.jpg" class="dgimg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/pict/banner-4.jpg" class="dgimg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/pict/banner-5.jpg" class="dgimg">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-bullets 
+                swiper-pagination-horizontal swiper-pagination-bullets-dynamic"></div>
+            </div>
         </div>
     </div>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".designSwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+      loop: true,
+    },
+  });
+</script>
+
 </html>

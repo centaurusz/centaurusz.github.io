@@ -1262,7 +1262,7 @@ a {
   }
 
   .swiper-pagination-bullet-active {
-    background-color: #d90b42;
+    background-color: #0efcfc;
   }
 
   /* works page gallery section-end*/
@@ -1479,107 +1479,8 @@ a {
 
   /* work page writing section-end */
 
-  /* work page design section-start */
-  html,
-  body {
-      height: 830px;
-  }
-  .navbar {
-      width: 100%;
-      height: 80px;
-      max-width: 100%;
-      position: fixed;
-      top: 0;
-      font-size: 14px;
-      line-height: 2.2rem;
-      background: rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      will-change: transform;
-      transform: translateY(0%);
-      -webkit-transform: translateY(0%);
-      transition: 0.3s;
-      -webkit-transition: 0.3s;
-      z-index: 1000;
-  }
-  
-  .navbar ul {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  
-  }
-  
-  .navbar li {
-      position: relative;
-      height: 100%;
-      list-style: none;
-  }
-  
-  .navbar li a {
-      height: 100%;
-      position: relative;
-      padding: 25px 62px;
-      display: flex;
-      letter-spacing: 2px;
-      justify-content: center;
-      align-items: center;
-      transition: 0.3s;
-      -webkit-transition: 0.3s;
-  }
-  
-  a {
-      text-decoration: none;
-      color: #fff;
-  }
-  
-  .navbar ul li :hover::after {
-      content: "";
-      width: calc(100% - 50px);
-      height: 2px;
-      background: #814bf6;
-      border-radius: 50px;
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      display: block;
-      transform: translateX(-50%) scaleX(1);
-      -webkit-transform: translateX(-50%) scaleX(1);
-      transform-origin: right;
-      -webkit-transform-origin: right;
-      transition: transform 0.3s cubic-bezier(0.68, 0.21, 0.16, 0.94);
-      -webkit-transition: transform 0.3s cubic-bezier(0.68, 0.21, 0.16, 0.94);
-      box-shadow: 0px 0px 10px #df1cff;
-      transition: 0.25s;
-  }
-  
-  .navbar .link {
-      cursor: pointer;
-      display: inline-block;
-  }
+/* work page design section-start
 
-  .design-page {
-    margin: 0 auto;
-    max-width: 1255px;
-    position: relative;
-  }
+design page in other css
 
-  .box-design {
-    margin: 140px auto 0;
-    max-width: 1255px;
-    background: url(/pict/box.png) no-repeat;
-    height: 792px;
-    position: relative;
-  }
-
-  .title-design h2{
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-size: 40px;
-    text-align: center;
-    top: 9px;
-    right: 37px;
-    position: relative;
-    font-style: italic;
-    color: cyan;
-  }
+work page design section-end */
