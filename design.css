@@ -147,3 +147,13 @@ a {
 .swiper-pagination-bullets-active {
     background-color: cyan;
 }
+
+.web-page{
+    margin: 0 auto;
+    max-width: 1255px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
